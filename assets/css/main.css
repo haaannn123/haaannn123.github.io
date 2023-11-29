@@ -1842,7 +1842,7 @@ input, select, textarea {
 		border-radius: 8px;
 		border: 0;
 		cursor: pointer;
-		display: inline-block;
+		display: flex;
 		font-weight: 300;
 		height: 2.75em;
 		line-height: 2.75em;
@@ -1851,8 +1851,6 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		display: flex;
-		align-items: center;
 	}
 
 		input[type="submit"].icon,
