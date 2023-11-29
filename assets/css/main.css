@@ -1851,6 +1851,8 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		display: flex;
+		align-items: center;
 	}
 
 		input[type="submit"].icon,
