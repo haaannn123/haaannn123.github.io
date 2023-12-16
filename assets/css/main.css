@@ -2421,6 +2421,25 @@ input, select, textarea {
 			width: 100%;
 		}
 
+/* Add this CSS to your stylesheet */
+
+/* First Section */
+#first {
+	position: relative;
+  }
+  
+  .good-cooks-banner {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  /* Optional: Add some padding or margin to prevent overlapping with other elements */
+  #first .content {
+	padding-top: 20px;
+  }
+
 /* List */
 
 	ol {
