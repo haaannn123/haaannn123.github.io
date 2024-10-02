@@ -17,8 +17,7 @@
 
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-device-pixel-ratio: 3) {
+  and (max-device-width: 812px) {
   
   .minibnb-banner {
     width: 100%; /* Ensures the image takes full width of the container */
