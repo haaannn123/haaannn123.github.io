@@ -13,3 +13,16 @@
     border: 1px solid rgb(228, 228, 228);
     object-fit: cover;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  
+  .minibnb-banner {
+    width: 100%; /* Ensures the image takes full width of the container */
+    height: 100%; /* Ensures the image takes full height of the container */
+    object-fit: cover; /* Scales the image to cover the container */
+  }
+}
